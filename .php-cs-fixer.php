@@ -83,12 +83,7 @@ $rules = [
 
 $finder = Finder::create()
     ->in([
-        '/app/app',
-        '/app/config',
-        '/app/database',
-        '/app/resources',
-        '/app/routes',
-        '/app/tests',
+        'src/'
     ])
     ->name('*.php')
     ->notName('*.blade.php')
@@ -101,4 +96,4 @@ return $config->setFinder($finder)
     ->setRules($rules)
     ->setRiskyAllowed(true)
     ->setUsingCache(true)
-    ->setCacheFile('/app/storage/framework/cache/.php_cs.cache');
+    ->setCacheFile('.php_cs.cache');
