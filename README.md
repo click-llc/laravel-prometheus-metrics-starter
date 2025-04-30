@@ -46,7 +46,7 @@ You can attach Prometheus metric collection to specific routes via middleware.
 
 ### Option 1: Using an alias
 
-Register the alias in your config/app.php:
+Register the alias in your `config/app.php`:
 
 ```bash
 'aliases' => [
