@@ -13,7 +13,7 @@ A simple and extensible Laravel package for collecting and exposing metrics in t
 ## 📦 Installation
 
 ```bash
-composer require your-vendor/laravel-prometheus-metrics-starter
+composer require click/laravel-prometheus-metrics
 ```
 
 ## ⚙️ Publishing Configuration
