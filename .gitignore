@@ -4,6 +4,8 @@ npm-debug.log
 yarn-error.log
 .idea
 .php_cs.cache
+composer.lock
+
 # Laravel 4 specific
 bootstrap/compiled.php
 app/storage/
